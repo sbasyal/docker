@@ -32,6 +32,8 @@ run the following command:
     $ sudo yum install docker
 
 Please continue with the [Starting the Docker daemon](#starting-the-docker-daemon).
+Also, you may need to install "device-mapper-event-libs" in order to start Docker daemon. It can be done using:
+`sudo yum install device-mapper-event-libs`
 
 ### FirewallD
 
